@@ -119,6 +119,12 @@ header {
     border: none;
     padding: 1rem 2rem;
     box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.5);
+    transition: 0.2s;
+}
+
+#see-more:hover {
+        background-color: #353535;
+        cursor: pointer;
 }
 
 .home-image {
