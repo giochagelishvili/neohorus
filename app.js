@@ -7,7 +7,6 @@ document.addEventListener("DOMContentLoaded", function () {
     close.addEventListener('click', hide);
 
     function show() {
-        navMenu.style.display = 'flex';
         navMenu.style.top = '0';
     }
 
