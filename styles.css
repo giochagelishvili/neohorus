@@ -5,6 +5,7 @@
 
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -61,10 +62,11 @@ header {
 }
 
 #nav-menu {
+    display: flex;
     list-style: none;
     height: 100vh;
     position: fixed;
-    top: 0;
+    top: -100%;
     right: 0;
     left: 0;
     z-index: 10;
@@ -72,8 +74,7 @@ header {
     justify-content: center;
     align-items: center;
     background: #000;
-    transition: top 1s ease-in-out;
-    display: none;
+    transition: 1s;
 }
 
 #hamburger {
@@ -150,10 +151,8 @@ footer {
     align-items: center;
     justify-content: center;
     gap: 1.5rem;
-
-    background-color: #000000;
-    background-image: linear-gradient(0, #181818 0%, #20262c 100%);
-    padding: 1rem 2rem;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
 }
 
 #footer-logo {
