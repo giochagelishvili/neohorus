@@ -11,6 +11,6 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     function hide() {
-        navMenu.style.top = '-100%';
+        navMenu.style.top = '-150%';
     }
 });
